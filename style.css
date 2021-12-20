@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+/* SCROLLBAR CSS BEGINS */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f18901ef;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b66802ef;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+  background-image: url(https://www.pinclipart.com/picdir/middle/139-1396849_up-scroll-arrow-comments-dark-grey-aluminium-frame.png);
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+  background-image: url(https://dl.dropboxusercontent.com/u/55165267/icon.png);
+}
+
+/* SCROLLBAR CSS ENDS */
+
+html, body, header {
+  margin: 0;
+  width: 1290px;
+  height: 1290px; 
+}
+.heading {
+    font-family: "Potta One";
+    color: white;
+    margin-top: 65px;
+    margin-left: 332px;
+    margin-right: 228px;
+    margin-bottom: 121px;
+    display: inline-block;
+    padding: 26px;
+    font-size: 3em;
+}
+/*HERE STARTS THE NAVIGATION BAR CODE, EVERY LINE IS COMMENTED WITH WHAT IT DOES*/
+.sidebar {
+  list-style-type: none; /*To make it show in one line*/
+  margin: 1%; /*To leave absolute no space between the start of the webpage and top of the navigation bar*/
+  padding: 0px; /*Same as above ^^^*/
+  background-color: #0b1622; /*Background colour for the navigation bar */
+  overflow: hidden; /*To prevent text from overflowing from the element*/
+  text-decoration: none; /* To remove underlines from names */
+  border-radius: 10px;
+  height: 4.35%;
+}
+li {
+    float: left; /*To make it keep left*/
+    text-decoration: none; /* To remove underlines from names */
+    
+  }
+
+li a{
+    display: inline-block; /*	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width*/
+    color: white; /*Colour of text displayed in the navigation bar*/
+    text-align: center; /*centers the text*/
+    padding: 20px 20px; /*For shaping the navigation bar*/
+    text-decoration: none;} /* To remove underlines from names */
+
+.left-items-navbar a:hover{  /* To show what happens when mouse is hovered */
+    color: rgb(253, 127, 8); /*The colour when hovered*/
+      
+    }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-home {
+  padding: 23px;
+}
+
+/* Add a hover effect if you want */
+.fa-twitter:hover {
+  opacity: 0.7;
+}
+
+.fa-patreon:hover {
+  opacity: 0.7;
+}
+.fa-home:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-patreon {
+  background-color: #f96854;
+  width: 85%;
+  left: 2000px;
+  float: right;
+}
+
+
+/* .active { /*To show what to do to the active button/element clicked*/
+  /* background-color: #04AA6D; What colour to show when the mouse is clicked over the element */
+
+/*END OF CSS CODE OF NAVIGATION BAR*/
+.heading2{
+    color: white;
+    margin-top: -217px;
+    margin-left: 258px;
+    margin-right: 25px;
+    margin-bottom: 27px;
+    font-size: 75%;
+}
+
+.boombaka{
+    width: 60px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+
+    float: left;
+    }
+.main-image{
+    height: 375px;
+    width: 375px;
+    margin-top: -342px;
+    margin-right: 379px;
+    display: inline-block;
+    padding: 20px;
+    transition: transform .6s;
+}
+
+.main-image:hover {
+  transform: scale(1.1);
+}
+body
+{
+    background-image: url("https://gcdn.pbrd.co/images/zyjV7Sh8anWz.png?o=1"); 
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+    overflow-x: hidden;
+    text-overflow: hidden;
+}
+
+.buttons-main {
+  margin-top: -160px;
+}
+.support{
+    background-color: #fdb670;
+    position: absolute;
+    left: 610px;
+    right: 139px;
+    color: black;
+    padding: 10px 10px ;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid white ;
+    font-size: 15px;
+    }
+
+.discord{
+    background-color: #fdb670;
+    position: absolute;
+    left: 780px;
+    right: 81px;
+    color: black;
+    padding: 10px 10px ;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid white ;
+    font-size: 15px;
+
+    }
+
+.discord:hover {background-color: #eb953f}
+.support:hover {background-color: #eb953f}
+
+
+.intro{
+    color: white;
+    margin-top: 50px;
+    margin-left: 332px;
+    margin-right: 196px;
+    margin-bottom: 110px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+
+.feature-images {
+  width: 200px;
+  /* border: 15px solid rgb(255, 136, 0); */
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.feature-image1 {
+  width: 580px;
+  height: 420px;
+  margin-top: 275px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: -50px;
+
+}
+
+.feature1 {
+  font-family: "Potta One";
+  font-style: bold;
+  margin-top: -365px;
+  margin-bottom: 30px;
+  margin-right: -609px;
+  margin-left: 0px;
+  color: white;
+  font-size: 200%;
+
+  /* font-weight: bold; */
+}
+
+.feature-description1 {
+  color: rgba(var(--dark-text-color), var(--this-text-opacity));
+  margin-top: 0px;
+  margin-left: 630px;
+  margin-right: 35px;
+  margin-bottom: 0.25px;
+  width: 500px;
+  word-wrap: break-word;
+  text-align: left;
+  
+}
+
+
+
+
+
+
+
+
